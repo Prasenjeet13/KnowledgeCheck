@@ -21,7 +21,7 @@ class xyz(MRJob):
     def r_output(self,uid,s_count):
         if(s_count>1):
             yield uid,s_count
-        #yield max(s_count)->2 # This may give a result like 3    "ITE0002331" when used with 1
+        #yield max(s_count)->2 # This may give a result like 3    "ITE0002331" when used with 1.  And in that scenario this func will be a reducer in MRStep.
 
 
 if __name__ == '__main__':
