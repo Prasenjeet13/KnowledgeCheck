@@ -2,3 +2,5 @@
 
 1. EDA on Price Analysis of Commodities
 Basic Visualisations to compare the prices of different Commodities and also analyse the increase in prices with time.
+
+2. Sample Map Reduce codes on taxid reformatting
